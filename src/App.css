@@ -1,0 +1,27 @@
+.titulo {
+  font-size: px;
+  color: red;
+  text-align: center;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  color: aquamarine;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 5px;
+   margin-right: 10px;
+}
+.footer{
+  text-align: center;
+  background-color: #8cb5de;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 86%;
+
+}

@@ -1,18 +1,21 @@
 import React from 'react'
 import { Outlet } from "react-router-dom";
+import Footer from './Footer';
 import Navbar from "./Navbar";
 
 const Layout = () => {
   return (
     <>
-    <h1>Institución Educativa</h1>
+    <h1 className='titulo'>Institución Educativa</h1>
 
       <Navbar />
-
       <hr />
-
-      <Outlet />
     
+{/* este es un comentario */}
+      <Outlet />
+      
+      <hr />
+      <Footer/>
     </>
   )
 }
